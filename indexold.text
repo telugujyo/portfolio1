@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Protifolio</title>
+</head>
+<body>
+    <!-- <script>
+         let a = document.createElement("button");
+  a.innerHTML="click"
+  a.addEventListener("click",function(){
+    document.body.style.backgroundColor="#060522"
+    document.body.style.color="white"
+   
+  })
+  
+  document.body.appendChild(a);
+  let b = document.createElement("button")
+  b.innerHTML="remove"
+  document.body.appendChild(b)
+  
+  b.addEventListener("click",function(){
+    document.body.style.backgroundColor= "#F7F7F7"
+    document.body.style.color="black"
+    let c = document.getElementsByTagName("a")
+    c.style.color="black"
+    let  = document.getElementsByTagName("a")
+    c.style.color="black"
+
+   
+  })
+ 
+    </script> -->
+    <section class="navbar">
+        <nav>
+            <div class="logo">PROTIFOLIO</div>
+           <div class="navitems">
+            <ul>
+              
+               <div class="navitem navitem1"> <li ><a href="#home">HOME</a></li></div>
+               <div class="navitem navitem2"> <li ><a href="#about">ABOUT</a></li></div>
+                <div class="navitem navitem3"><li ><a href="#services">SERVICES</a></li></div>
+                <div class="navitem navitem4"><li ><a href="#myworks">MYWORK</a></li></div>
+                <div class="navitem navitem5"><li ><a href="#contact">CONTACT</a></li></div>
+            </ul>
+           </div>
+        </nav>
+    </section>
+    <section id="home">
+       <div class="intro">
+        <p id="helo">Hello!</p>
+        <p id="name">I'm <span style="color:#FA5F55 ;">Telugu Jyothi</span></p>
+        <p id="discrip">Iam using HTML and CSS to convert webpage designs <br> <br>into beautiful and efficient websites.
+            <br><br><br>
+            <button>Download CV
+            </button>   
+        </p>
+       </div>
+       <div class="myimg">
+        <img src="" alt="">
+    </div>
+      
+       
+   </div>
+    </section>
+    <section id="about">
+        <div class="about">
+            <p id="aboutme"><b>A</b>bout Me</p>
+            <br>
+            <p id="know">Know more about me</p>
+            <br><br><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ad, <br> asperiores necessitatibus exercitationem corrupti fuga? Consequatur <br> illum saepe quisquam veniam.</p>
+            
+            <div class="details">
+                <div class="detail detail"><img src="images/location-pin.png" alt="" width="20px" height="20px" style="background-color:#F7F7F7; ">Location:Hi-tech City, Hyderabad.</div>
+                <div class="detai2 detail"><img src="images/calendar.png" alt=""  width="20px" height="20px" style="background-color:#F7F7F7; ">Age:21</div>
+                <div class="detai3 detail"><img src="images/phone (1).png" alt=""  width="20px" height="20px" style="background-color:#F7F7F7; ">Mail:telugujyothi020424@gmail.com</div>
+                <div class="detai4 detail"><img src="images/mail.png" alt="" width="20px" height="20px" style="background-color:#F7F7F7; ">Phone:1234567890</div>
+                <div class="logos">
+                    <div class="logo1 logo"><img src="images/facebook-app-symbol.png" alt="1" width="20px" height="20px" style="background-color:#F7F7F7; "></div> 
+                    <div class="logo2 logo"><img src="images/twitter.png" alt="2"width="20px" height="20px" style="background-color:#F7F7F7; "></div>
+                    <div class="logo3 logo"><img src="images/linkedin.png" alt="3" width="20px" height="20px" style="background-color:#F7F7F7; "></div>
+                    <div class="logo4 logo"><img src="images/github.png" alt="4" width="20px" height="20px" style="background-color:#F7F7F7; "></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="about1">
+            <img src="images/imagecrop.jpeg" alt="" height="400px" width="600px">
+        </div>
+        
+    </section>
+    <section id="services">
+        <div class="service1">
+          <p id="ourservices"><b>M</b>y Services</p>
+          <br>
+          <p id="myservice">My Services</p>
+          <br><br><br>
+          <p id="sdiscrip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ad, <br> asperiores necessitatibus exercitationem corrupti fuga? Consequatur <br> illum saepe quisquam veniam.</p>
+          <br><br><br>
+          <p id="sdiscrip">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ad, <br> asperiores necessitatibus exercitationem corrupti fuga? Consequatur <br> illum saepe quisquam veniam.</p>
+          
+         
+        </div>
+        <div class="service2">
+<ul>
+    <li>websites</li>
+    <li>Resumes</li>
+    <li>Personal Protifolio</li>
+    <li>UI/UX</li>
+    <li>Promotion</li>
+</ul>
+        </div>
+    </section>
+   
+   <section id="myworks">
+<div class="works">
+    <div class="w1">
+        <p id="head"><b>M</b>y Works</p>
+        <br>
+        <p id="shead">My Works
+        </p>
+
+    </div>
+    <div class="ww">
+        <br><br>
+        <p id="head1">Check out my github Profile for my works</p>
+        <br><br>
+        <a href="https://github.com/telugujyo" id="git"><button>Clik me to see my Works</button></a>
+    </div>
+    <br><br>
+    
+</div>
+   </section>
+
+   <section id="contact">
+    <div class="contacts">
+        <p id="phead"><b>M</b>y Contact</p>
+        <br>
+        <p id="phead1">Contact
+        </p>
+
+    </div>
+    <br><br>
+    <div class="form">
+      <form action="">
+        <div class="conact-item">
+            <label for="text">Name:</label>
+            <input type="text"  id="names" placeholder="Enter your name" required>
+        </div>
+        <div class="conact-item">
+            <label for="eamil">Email:</label>
+            <input type="email"  id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="conact-item">
+            <label for="tel">Phone:</label>
+            <input type="text" id="phone" placeholder="Enter your phonenumber" required>
+        </div>
+        <div class="conact-item">
+            <label for="text">Feedback:</label>
+            <textarea name="" id="textarea" cols="21" rows="" placeholder="enter your feedback" required></textarea>
+        </div>
+        <br>
+        <div class="button">
+        <input type="submit" id="button">
+        </div>
+      </form>
+    </div>
+   </section>
+   <section id="footer">
+   <p> Copyright  &copy;All Rights are Reserved</p>
+   </section>
+</body>
+</html>
